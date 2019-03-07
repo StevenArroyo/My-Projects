@@ -1,0 +1,154 @@
+body
+{
+    
+    font-display: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url("image1.jpg");
+    background-size: cover;
+    position: absolute;
+}
+
+.signin{
+
+    background:rgba(12, 13, 14, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 130px;
+    height: 400px;
+    margin-left: 550px;
+
+}
+
+#button{
+    right: 50px;
+}
+
+
+#login{
+     text-align: center;
+    
+    }
+
+input{
+
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    text-align: center;
+    
+}
+
+#incorrect{
+    text-align: center;
+    
+}
+
+#fadein{
+    animation: fadeout 3s;
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#fadeout{
+    animation: fadeout 3s;
+}
+
+@keyframes fadeout{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.cant{
+    text-align: center;
+}
+
+input[type=button]{
+
+    border: none;
+    width: 240px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+
+input[type=button]:hover{
+
+    color: black;
+    background-color: yellow;
+}
+
+h2{
+
+    color: white;
+
+}
+
+a{
+    color:yellow;
+    text-decoration: blink;
+}
+
+a:hover{
+    color:skyblue;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+::placeholder{
+    color:aliceblue;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

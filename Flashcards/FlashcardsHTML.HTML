@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Flashcards</title>
+        <link rel="stylesheet" href="FlashcardsCSS.css" type="text/css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play"/>
+
+    </head>
+
+    <body onload="loadJSON()">
+        <nav>
+            <div class="logo">
+                <h2>
+                    My Flashcards
+                </h2>
+            </div>
+            <select id="list" onchange="window.location.href=this.value">
+                <option value="Java2">Java Questions</option>
+                <option value="FlashcardsHTML2.html">More Questions</option>
+            </select>
+            <ul>
+                <li>
+                    <a style="color: black">Welcome Steven!</a>
+                    <a href="AboutSA.HTML" style="color: black">About Me</a>
+                    <a href="LoginHTML.html" style="color: black">Log Out</a>
+                </li>
+            </ul>
+        </nav>
+
+        <slider>
+            <slide></slide>
+            <slide></slide>
+            <slide></slide>
+            <slide></slide>
+            <slide></slide>
+
+        </slider>
+
+        <div class="cardwheel">
+                <div class="card">
+                        <div class="card__content">
+                            <div class="card__front">
+                              <h3 id="q1" class="card__title"></h3>
+                              <p3 class="card__subtitle"></p3>
+                            </div>
+              
+                            <div class="card__back">
+                              <p id="a1" class="card__body"></p>
+                            </div>
+                        </div>  
+                      </div>
+                      <div class="card1">
+                            <div class="card__content">
+                                <div class="card__front1">
+                                  <h2 id="q2" class="card__title1"></h2>
+                                </div>
+                  
+                                <div class="card__back1">
+                                  <p id="a2" class="card__body1"></p>
+                                </div>
+                            </div>  
+                          </div>
+                          <div class="card2">
+                                <div class="card__content">
+                                    <div class="card__front2">
+                                      <h2 id="q3" class="card__title2"></h2>
+                                    </div>
+                      
+                                    <div class="card__back2">
+                                      <p id="a3" class="card__body2"></p>
+                                    </div>
+                                </div>  
+                              </div>
+                              <div class="card3">
+                                    <div class="card__content">
+                                        <div class="card__front3">
+                                          <h2 id="q4" class="card__title3"></h2>
+                                        </div>
+                          
+                                        <div class="card__back">
+                                          <p id="a4" class="card__body3"></p>
+                                        </div>
+                                    </div>  
+                                  </div>
+                                  <div class="card4">
+                                        <div class="card__content">
+                                            <div class="card__front4">
+                                              <h2 id="q5" class="card__title4"></h2>
+                                            </div>
+                              
+                                            <div class="card__back">
+                                              <p id="a5" class="card__body4"></p>
+                                            </div>
+                                        </div>  
+                                      </div>
+        </div>
+
+        <script type="text/javascript" src="FlashcardsJS.js"></script>
+        
+    </body>
+
+
+</html>
